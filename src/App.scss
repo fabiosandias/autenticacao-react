@@ -1,0 +1,36 @@
+@import "~bootstrap/scss/bootstrap";
+
+.app {
+}
+.button__assist_default {
+  background: #50AE9E;
+  color: #FFF;
+  border: none;
+  border-radius: 0;
+}
+
+.button__assist_default:hover,
+.button__assist_default:focus{
+  background: #298e7c;
+  color: #FFF;
+  border: none;
+}
+
+.square-field {
+  border-radius: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

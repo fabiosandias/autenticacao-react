@@ -1,0 +1,23 @@
+
+.login {
+  width: 400px;
+  margin: 100px auto 0;
+  
+  .login__logo {
+    display: flex;
+    justify-content: center;
+  }
+  .login__logo-span {
+    display: flex;
+  }
+  .login_logo--img {
+    width: 250px;
+  }
+  .login__form {
+    background: #f5f7fa;
+    margin-top: 30px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    border: 1px solid #cdcdcd;
+  }
+}
